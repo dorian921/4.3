@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  
+
+  font-family: "Goldman", cursive;
+
+}
+#background{background-image: url(./img/background.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+  
+
+
+}
+#h1{position: absolute;
+  text-align: center;
+  font-size: 60px;
+  bottom: 45%;
+  left: 45%;
+  right: 45%;
+  top: 45%;
+color: white;
+font-weight: bolder;}
+
+#h11{
+  position: relative;
+  font-size: 60px;
+ text-align: center;
+ 
+
+ 
+ 
+
+
+}
+
+
+
+section{
+  width: fit-content;
+  height: fit-content;
+}
+
+footer{
+  color: white;
+  position: absolute;
+  bottom: -400px;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  
+}
+#navbar {
+  width: -2rem;
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
